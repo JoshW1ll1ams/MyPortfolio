@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --darkblue: #020E54;
+  --blue: #4f3fb5;
+  --palepurple: #938bcc;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
