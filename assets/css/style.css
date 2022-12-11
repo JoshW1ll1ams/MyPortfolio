@@ -19,6 +19,11 @@ body {
   background-color: var(--dakrgrey);
 }
 
+h5{
+  color: var(--darkred);
+  font-weight: bold;
+}
+
 p{
   color: var(--cream);
 }
@@ -27,6 +32,23 @@ h1
 {
   color: var(--darkred);
 }
+
+.container-fluid
+{
+  background-color: var(--lightgrey);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.headings{
+  color: var(--cream);
+  background-color: var(--darkred);
+  padding: 20px;
+  border-radius: 0px 0px 100px 0px;
+  width: 80%;
+}
+
 
 /* NAVBAR */
 .navbar-brand
@@ -91,6 +113,72 @@ hr
   margin-left: 60%;
 }
 
+/* WORKCARDS */
+
+
+.card
+{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  height: 450px;
+  margin-bottom: 20px;
+  background-color: var(--dakrgrey);
+  
+}
+
+.card a
+{
+  color: var(--darkred);
+}
+
+.card-img-top
+{
+  height: 180px;
+}
+
+.list-group-item
+{
+  background-color: var(--dakrgrey);
+  color: var(--cream);
+}
+
+.card .list-group
+{
+  position: absolute;
+  top: 235px;
+}
+
+.card-body a{
+  position: absolute;
+  top: 410px;
+}
+
+/* SKILLS */
+#skills
+{
+padding-top: 20px;
+}
+
+.progress
+{
+margin: 10px 0px 30px 0px;
+}
+
+#skills .list-group-item
+{
+  color: var(--cream);
+  border-color: var(--dakrgrey);
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress-bar
+{
+  background-color: #d90429;
+}
+
+
 @media only screen and (max-width: 1230px) {
   /* NAVBAR */
   .dropdown-item
@@ -111,4 +199,13 @@ hr
     margin-left: 0%;
     margin-right: 0%;
   }
+
+  /* WORK CARDS */
+
+  #skills .list-group-item
+  {
+    font-size: 13px;
+  }
+  
+
 }
