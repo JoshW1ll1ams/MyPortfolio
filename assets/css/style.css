@@ -6,8 +6,8 @@
   --dakrgrey: #2b2d42;
   --lightgrey: #8d99ae;
   --cream: #edf2f4;
-  --lightred: #ef233c;
-  --darkred: #d90429;
+  --lightred: #da2439;
+  --darkred: #ef233c;
 }
 
 
@@ -39,6 +39,12 @@ h1
   margin-top: 40px;
   margin-bottom: 40px;
   width: 90%;
+  border-style: solid;
+  border-color: var(--darkred);
+  border-style: none solid none none;
+  border-width: 20px;
+  
+  
 }
 
 .headings{
@@ -46,7 +52,7 @@ h1
   background-color: var(--darkred);
   padding: 20px;
   border-radius: 0px 0px 100px 0px;
-  width: 80%;
+  width: 20%;
 }
 
 
@@ -78,7 +84,7 @@ h1
 /* JUMBOTRON */
 .jumbotron
 {
-  margin-top: 100px;
+  margin-top: 20px;
   background-color: var(--lightgrey);
   padding: 100px;
 }
@@ -109,7 +115,7 @@ hr
 {
   position: absolute;
   height: 280px;
-  top: 230px;
+  top: 170px;
   margin-left: 60%;
 }
 
@@ -121,7 +127,7 @@ hr
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  height: 450px;
+  height: 300px;
   margin-bottom: 20px;
   background-color: var(--dakrgrey);
   
@@ -137,24 +143,16 @@ hr
   height: 165px;
 }
 
+.card-body a{
+  color: var(--cream);
+}
+
+/* SKILLS */
 .list-group-item
 {
   background-color: var(--dakrgrey);
   color: var(--cream);
 }
-
-.card .list-group
-{
-  position: absolute;
-  top: 235px;
-}
-
-.card-body a{
-  position: absolute;
-  top: 410px;
-}
-
-/* SKILLS */
 #skills
 {
 padding-top: 20px;
@@ -190,12 +188,29 @@ CONTACT */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 80px;
 }
+
+
+.contactboxes img
+{
+  height: 50px;
+}
+
 
 .contactboxes a
 {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10%;
+  text-decoration: none;
+  color: var(--darkred);
+  font-size: 20px;
+}
+
+
+.contactboxes a:hover
+{
+  color: var(--cream);
 }
 
 
